@@ -4,7 +4,9 @@ subtitle: "my data science portfolio"
 # use quarto markdown to 
 ---
 
-# Title 1 Header
-## Title 2 Header
+## Who am I?
 
-[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
+My name is Calvin Park Borrowman and I'm a student of BYU-Idaho. I'm currently studying to get a bachelors degree in bio-informatics. What I strive to do with my degree is to pursue a career in biomedical research. 
+
+Furthermore, this portfolio serves as is to demonstrate my ability as a data scientist in the field of bio-informatics. Throughout this website is a collage of my data wrangling and computational skills, which show personal examples of my qualifications in data science.
+

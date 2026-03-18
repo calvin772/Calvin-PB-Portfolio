@@ -3,18 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "Your_Name - Data Science Portfolio"
+  title: "Calvin Borrowman - Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  repo-url: https://github.com/username/username.github.io
-  #repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
+  repo-url: https://github.com/calvin772/Calvin-PB-Portfolio
+  repo-actions: [issue] #if you want to allow others to report issues on your site uncomment this line
 
   page-footer: 
     border: true
-    left: "Your_Name 2024©"
+    left: "Calvin Park Borrowman 2026©"
     right: 
       - icon: linkedin
-        href: Your_LinkedIn_URL
+        href: www.linkedin.com/in/calvin-borrowman-299812351
 
   navbar:
     background: primary
@@ -139,7 +139,7 @@ website:
 format:  
   html:
     theme: #see this link to customize the theme with css (https://quarto.org/docs/output-formats/html-themes.html#dark-mode)
-      light: flatly # more themes can be found [here](https://quarto.org/docs/output-formats/html-themes.html)
+      light: minty # more themes can be found [here](https://quarto.org/docs/output-formats/html-themes.html)
       dark: darkly
       #light: cosmo
       #dark: [cosmo, theme-dark.scss]
