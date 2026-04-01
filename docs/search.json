@@ -79,9 +79,9 @@
   {
     "objectID": "Cleansing_Exploration/project1.html",
     "href": "Cleansing_Exploration/project1.html",
-    "title": "Client Report - [Insert Project Title]",
+    "title": "Client Report - Invasive Bivalve Species in the USA",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "text": "Introduction\n\n\n\n\n Back to top",
     "crumbs": [
       "Data Exploration",
       "Project 1"
@@ -349,5 +349,19 @@
     "crumbs": [
       "Full Stack"
     ]
+  },
+  {
+    "objectID": "data/git_keep.html",
+    "href": "data/git_keep.html",
+    "title": "git_keep",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "R projects/git_keep.html",
+    "href": "R projects/git_keep.html",
+    "title": "git_keep",
+    "section": "",
+    "text": "Back to top"
   }
 ]

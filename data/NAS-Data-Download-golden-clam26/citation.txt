@@ -1,0 +1,3 @@
+﻿Please use the following citation when using downloaded data in publication:
+
+U.S. Geological Survey, 2026, Specimen observation data for <i>Corbicula fluminea</i> (O. F. Müller, 1774), Nonindigenous Aquatic Species Database, Gainesville, FL, https://nas.er.usgs.gov/queries/CollectionInfo.aspx?SpeciesID=92, Access Date: 4/1/2026.

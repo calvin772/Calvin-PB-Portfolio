@@ -1,0 +1,3 @@
+﻿Please use the following citation when using downloaded data in publication:
+
+U.S. Geological Survey, 2026, Specimen observation data for <i>Dreissena rostriformis bugensis</i> Andrusov, 1897, Nonindigenous Aquatic Species Database, Gainesville, FL, https://nas.er.usgs.gov/queries/CollectionInfo.aspx?SpeciesID=95, Access Date: 4/1/2026.
