@@ -29,6 +29,14 @@ editor_options:
 
 # Introduction
 
+In recent decades, the United States of America has been in a conflict with invasive species. Some of the current invaders inflicting the country today are freshwater bivalves. These mollusks compete with native animals and can damage local ecosystems. Not only that, but they have an economic impact as well, since they can clog pipes for drains and water facilities. This article seeks to examine three species, which include:
+
+* [The Zebra Mussel]("https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=5")
+
+* [The Quagga Mussel]("https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=95")
+
+* [The Freshwater Golden Clam]("https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=92")
+ 
 ```{r, warning=FALSE, message=FALSE, include=FALSE}
 #| label: load in libraries and data
 
@@ -44,7 +52,15 @@ gc <- read.csv("https://raw.githubusercontent.com/calvin772/Calvin-PB-Portfolio/
 
 ```
 
+#### Zebra and Quagga Mussels
+
+The zebra mussel and quagga mussel are similar looking species that both originate from Eastern Europe. However, zebra mussels have a much more flatter side to their shells and have been in the United States longer than their quagga counterparts. Their impact on the USA is similar as well. Both are notorious for clogging human water structures, such as pipes and turbines. They also out compete local species in consuming phytoplankton and cause the water toxicity to rise.
+
 ![](../images/zebra_&_quagga_comp.jpg)
+
+#### Freshwater Golden Clam
+
+The golden clam originates from Southern Asia and is known for its typical pale yellow shell. Like the zebra and quagga mussels, it can cause damage to human property by clogging pipes and turbines. However, it's effect on local specie populations and biodiversity is quite minimal.
 
 ![](../images/golden_clam.jpg)
 
@@ -93,6 +109,14 @@ count.bivalv <- map.bivalv %>%
   head(15)
 ```
 
+# Analysis
+
+## Detection Trends Over Time
+
+Looking at the number of detections for these invasive species gives us a good idea on how their populations have changed over time. In the graph below, we see that historically the golden clam has outperformed the other species in terms of numbers. The quagga mussel, which is a more newly introduced species, has the smallest population of the three.
+
+We also see that after all three species experienced a spike in population growth, that their detection numbers are on a downward trend. Whether this is due to actual population decrease or relaxed detection methods isn't known.
+
 ```{r, warning=FALSE, message=FALSE}
 #| label: Plotting Invasive Trends
 
@@ -118,6 +142,10 @@ ggplot(year.x.bv, aes(x=Year, y=Count, col=as.factor(Species.ID))) +
   annotate("text", x=1995, y=75, label="Quagga Mussel", color = "#060303")+
   annotate("text", x=2007, y=700, label="Golden Clam", color = "#A99E26")
 ```
+
+## Where Are They Now?
+
+It's also important that we know where these creatures are currently. Looking at data since 2020, we were able to create an interactive map which shows the locations of populations based on where they were detected. Immediately, we are drawn to the North Eastern United States, where we see an abundance of zebra mussel and golden clam detections. There are even heavy spikes of quagga mussel detections in that region as well.
 
 ```{r, warning=FALSE, message=FALSE}
 #| label: Plotting 2020 to 2025 map
@@ -163,6 +191,10 @@ leaflet() %>%
   
 ```
 
+## The Most Inflicted States
+
+After taking the data from the map, we can see which states are the most currently afflicted in the USA. Right now, the top state is New York, with a total of 298 detections of all three species since 2020. A majority of these come from zebra mussels, where they were observed 237 times. Zebra mussels as a whole are consistently heavily observed in a lot of states.
+
 ```{r, warning=FALSE, message=FALSE}
 #| label: Table of Invasive Counts in States
 
@@ -174,3 +206,6 @@ pivot.bivalv <- count.bivalv %>%
 pander(pivot.bivalv) 
 ```
 
+# Conclusion
+
+In conclusion, we've been observing a general decrease in sightings of these invasive species, which can be interpreted as a good thing. However, we still see indications of heavy populations of zebra mussels and freshwater golden clams in areas like New York. These populations could rebound and reverse the trend, causing more damage to the USA. The quagga mussel is also a newer specie and should be watched over in case it firmly establishes a large population base.
