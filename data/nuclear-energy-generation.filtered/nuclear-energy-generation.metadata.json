@@ -1,0 +1,38 @@
+{
+  "chart": {
+    "title": "Nuclear power generation",
+    "citation": "Ember (2026); Energy Institute - Statistical Review of World Energy (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/nuclear-energy-generation?tab=line&country=FRA~SWE~GBR~JPN~USA~DEU&v=1&csvType=filtered&useColumnShortNames=false",
+    "selection": [
+      "France",
+      "Sweden",
+      "United Kingdom",
+      "Japan",
+      "Germany"
+    ]
+  },
+  "columns": {
+    "Electricity from nuclear - TWh": {
+      "titleShort": "Electricity generation from nuclear",
+      "titleLong": "Electricity generation from nuclear",
+      "descriptionShort": "Measured in [terawatt-hours](#dod:watt-hours).",
+      "descriptionProcessing": "- Electricity data from 2000 onwards (and from 1990 onwards for European countries, including Turkey) comes from Ember. Earlier data comes from the Energy Institute.",
+      "shortUnit": "TWh",
+      "unit": "terawatt-hours",
+      "timespan": "1965-2025",
+      "type": "Numeric",
+      "owidVariableId": 1134917,
+      "shortName": "nuclear_generation__twh",
+      "lastUpdated": "2026-01-26",
+      "nextUpdate": "2027-01-26",
+      "citationShort": "Ember (2026); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data",
+      "citationLong": "Ember (2026); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. “Electricity generation from nuclear” [dataset]. Ember, “Yearly Electricity Data Europe”; Ember, “Yearly Electricity Data”; Energy Institute, “Statistical Review of World Energy” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1134917.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-02-06",
+  "activeFilters": {
+    "country": "FRA~SWE~GBR~JPN~USA~DEU",
+    "tab": "line"
+  }
+}
